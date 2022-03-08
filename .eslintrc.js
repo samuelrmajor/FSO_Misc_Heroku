@@ -2,7 +2,8 @@ module.exports = {
     'env': {
         'browser': true,
         'commonjs': true,
-        'es2021': true
+        'es2021': true,
+        'jest': true
     },
     'extends': 'eslint:recommended',
     'parserOptions': {
@@ -32,6 +33,7 @@ module.exports = {
     ],
     'arrow-spacing': [
         'error', { 'before': true, 'after': true }
-    ]
+    ],
+    'no-console': 0
     }
 }
